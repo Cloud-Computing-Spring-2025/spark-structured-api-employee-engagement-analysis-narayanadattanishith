@@ -67,7 +67,6 @@ def write_output(result_df, output_path):
     """
     output_dir = os.path.dirname(output_path)
     os.makedirs(output_dir, exist_ok=True)
-    print("jyotika check done")
     result_df.coalesce(1).write.csv(output_path, header=True, mode='overwrite')
 
 def main():
