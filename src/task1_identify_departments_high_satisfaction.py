@@ -60,7 +60,7 @@ def write_output(result_df, output_path):
 
     Parameters:
         result_df (DataFrame): Spark DataFrame containing the result.
-        output_path (str): Path to save the output CSV file.
+        output_path (str): Path to save the output CSV as file .
 
     Returns:
         None
