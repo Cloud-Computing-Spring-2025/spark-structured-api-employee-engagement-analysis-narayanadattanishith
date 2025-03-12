@@ -97,7 +97,7 @@ You can run the analysis tasks either locally or using Docker.
 
 2. **Access the Spark Master Container**:
    ```bash
-   docker exec -it spark-master bash
+   docker exec -it my-spark-master bash
    ```
 
 3. **Navigate to the Spark Directory**:
